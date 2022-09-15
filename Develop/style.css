@@ -13,6 +13,10 @@ textarea{
   padding: 10px;
 }
 
+div {
+  display: block;
+}
+
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -20,6 +24,41 @@ textarea{
   border-radius: 0;
   border-bottom: 10px solid black;
 }
+#selectable {
+  list-style-type: none;
+  margin-top: 0;
+  padding: 0;
+  width: 75%;
+}
+
+.ui-widget-content {
+    border: 2px solid #c5c5c5;
+    background: #f6f6f6;
+    font-weight: normal;
+    text-align: left;
+    color: #454545;
+    height: 70px;
+    padding-top: 2%;
+    }
+
+
+/* #selectable li {
+  margin: 0 3px 3px 3px;
+  padding: 0.4em;
+  padding-left: 1.5em;
+  font-size: 1.4em;
+  height: 18px;
+}  */
+
+
+ol {
+  display: inline-block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+} 
 
 .description{
   white-space: pre-wrap;
@@ -28,6 +67,25 @@ textarea{
 .time-block{
   text-align: center;
   border-radius: 15px;
+  border: black;
+  margin-top: 0px;
+  padding: 10 10 10 10px;
+}
+
+.hourBox {
+  /* display: block; */
+  /* text-align: center; */
+  display: block;
+  text-align: center;
+  /* vertical-align: middle; */
+  width:  90px;
+  height: 90%;
+  border-style: dashed;
+  background-color: aliceblue;
+  /* height: 200px;   */
+  /* padding: 2% 1% 2% 1%;  */ */
+  /* width: 100px; */
+  margin: 0; 
 }
 
 .row {
