@@ -8,25 +8,20 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
-    <script
-      type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"
-    ></script>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
-
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="Develop/style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
     <title>Work Day Scheduler</title>
-      </head>
+  </head>
 
   <body>
     <header class="jumbotron">
@@ -35,34 +30,106 @@
       <p id="currentDay" class="lead"></p>
     </header>
 
-
-
-    <!-- i removed class of "container from this div" -->
-    <div class="time-block">
+    <div class="container">
       <!-- Timeblocks go here -->
 
-      <ol id="selectable" class="ui-selectable">
 
-        <li class="ui-widget-content"><div class="hourBox">9:00AM</div></li>
-        <li class="ui-widget-content"><span class="hourBox">10:00AM</span></li>
-        <li class="ui-widget-content"><span class="hourBox">11:00AM</span></li>
-        <li class="ui-widget-content"><span class="hourBox">12:00PM</span></li>
-        <li class="ui-widget-content"><span class="hourBox">1:00PM</span></li>
-        <li class="ui-widget-content"><span class="hourBox">2:00PM</span></li>
-        <li class="ui-widget-content"><span class="hourBox">3:00PM</span></li>
-        <li class="ui-widget-content"><span class="hourBox">4:00PM</span></li>
-        <li class="ui-widget-content"><span class="hourBox">5:00PM</span></li>
+      <div class="row">
+        <div class="col-1 time-block hour">
+          9:00AM
+        </div>
+        <textarea class="col-10 hour description">
+          
+        </textarea>
+        <button class="col-1 saveBtn">
+          Save
+        </button>
+        <div class="col-1 time-block hour">
+          10:00AM
+        </div>
+        <textarea class="col-10 hour description">
+          
+        </textarea>
+        <button class="col-1 saveBtn">
+          Save
+        </button>
+        <div class="col-1 time-block hour">
+          11:00AM
+        </div>
+        <textarea class="col-10 hour description">
+          
+        </textarea>
+        <button class="col-1 saveBtn">
+          Save
+        </button>
+        <div class="col-1 time-block hour">
+          12:00PM
+        </div>
+        <textarea class="col-10 hour description">
+         
+        </textarea>
+        <button class="col-1 saveBtn">
+          Save
+        </button>
+        <div class="col-1 time-block hour">
+          1:00PM
+        </div>
+        <textarea class="col-10 hour description">
+          
+        </textarea>
+        <button class="col-1 saveBtn">
+          Save
+        </button>
+        <div class="col-1 time-block hour">
+          2:00PM
+        </div>
+        <textarea class="col-10 hour description">
+          
+        </textarea>
+        <button class="col-1 saveBtn">
+          Save
+        </button>
+        <div class="col-1 time-block hour">
+          3:00PM
+        </div>
+        <textarea class="col-10 hour description">
+         
+        </textarea>
+        <button class="col-1 saveBtn">
+          Save
+        </button>
+        <div class="col-1 time-block hour">
+          4:00PM
+        </div>
+        <textarea class="col-10 hour description">
+          
+        </textarea>
+        <button class="col-1 saveBtn">
+          Save
+        </button>
+        <div class="col-1 time-block hour">
+          5:00pm
+        </div>
+        <textarea class="col-10 hour description">
+         
+        </textarea>
+        <button class="col-1 saveBtn">
+          Save
+        </button>
 
-      </ol>
+
+
+
+
+
 
     </div>
 
-
-
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="./Develop/script.js"></script>
-  </body>
- 
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
 </html>
