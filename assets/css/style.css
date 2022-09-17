@@ -69,10 +69,11 @@ textarea {
   background-color: #06aed5;
   color: white;
   /* text-align: center; */
-  padding: 1px 1px 2px 2px;
+  /* padding: 1px 1px 2px 2px; */
   /* padding-right: 4px;  */
   /* align-items: center; */
   /* display: block; */
+  padding-bottom: 15px;
 
 }
 
